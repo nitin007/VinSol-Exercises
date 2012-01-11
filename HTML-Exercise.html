@@ -1,86 +1,76 @@
-<!-- Only 1 radio button should be selectable -->
-<!-- File not uploading -->
-<!-- Use table or some constructs for aligning, instead of &nbsp; -->
-<!-- Please follow proper indentation -->
-<!-- Background color missing -->
+<!-- #Only 1 radio button should be selectable -->
+<!-- #File not uploading -->
+<!-- #Use table or some constructs for aligning, instead of &nbsp; -->
+<!-- #Please follow proper indentation -->
+<!-- #Background color missing -->
 <html>
-<head>
-<title>Contact Form</title>
-<meta name ="description" content="HTML Contact Form" />
-<meta name ="author" content="Nitin Gupta" />
-<body>
-<h3>Contact Form</h3>
-<br />
-<form action="" method="">
-Your Name*:&nbsp&nbsp&nbsp&nbsp <input type="text" name="name" /><br /><br />
-
-E-mail*:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="email" style="background-color:yellow" /><br /><br />
-
-Phone number: <input type="text" name="phone" style="background-color:yellow" /><br /><br />
-
-Website* :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="website" value="http://" size="40"><br /><br />
-
-Comments* :
-<br /><textarea rows="8" cols="35">
-</textarea><br /><br />
-
-
-<b>Text field</b><br />
-Your Name : <input type="text" name="yname" style="background-color:yellow" /><br /><br />
-
-
-<b>Password field</b><br />
-Password : <input type="password" name="password"><br /><br />
-
-
-<b>Radio buttons</b><br />
-	Do you like pizza?<br />
-	<input type="radio" name="yes" />Yes<br />
-	<input type="radio" name="no" />No<br />
-	<input type="radio" name="may" />May be<br />
-	<input type="radio" name="never" />Never tried<br /><br />
-	
-	
-	<b>Checkbox</b><br />
-	<input type="checkbox" name="like">Check this box if you like our service<br /><br />
-	
-	
-	Anything you would like to say?<br />
-	<textarea rows="5" cols="40">
-		</textarea><br /><br />
-		
-		
-<b>I like</b><br />
-<select name="veg" size="5">
-	<option value="mush">mushrooms</option>
-	<option value="pepp">green peppers</option>
-	<option value="onion">onion</option>
-	<option value="tom">tomatoes</option>
-	<option value="olives">olives</optiont>
-	</select><br /><br />
-
-
-<b>Menu</b><br />
-Your favourite color:<br />
-<select name="color">
-	<option value="yellow">Yellow</option>
-	<option value="green">Green</option>
-	<option value="red" selected="selected">Red</option>
-	<option value="Purple">Purple</option>
-	</select><br /><br />
-	
-	
-<b>Attach file</b><br />
-<input type="text" name="file" size="40" />
-<input type="button" name="find" value="Browse" /><br /><br />
-
-
-<b>Buttons</b><br />
- <input type="submit" name="sub" /></a>
-<input type="reset" name="res" />
-
-
-</form>
-</body>
-</head>
+	<head>
+		<title>Contact Form</title>
+		<meta name ="description" content="HTML Contact Form" />
+		<meta name ="author" content="Nitin Gupta" />
+	</head>
+	<body bgcolor="#E8E8E8">
+		<h3>Contact Form</h3>
+		<br />
+		<form action="" method="">
+			<table border="0">
+				<tr>
+					<td>Your Name*:</td>
+					<td><input type="text" name="name" /></td>
+				</tr>
+				<tr>
+					<td>E-mail*:</td>
+					<td><input type="text" name="email" 		style="background-color:yellow" /></td>
+				</tr>
+				<tr>
+					<td>Phone number:</td>
+					<td><input type="text" name="phone" style="background-color:yellow" /></td>
+				</tr>
+				<tr>
+					<td>Website* :</td>
+					<td><input type="text" name="website" value="http://" size="40"></td>
+				</tr>
+			</table>
+			Comments* :<br />
+			<textarea rows="8" cols="35">
+			</textarea><br /><br />
+			<b>Text field</b><br />
+			Your Name : <input type="text" name="yname" style="background-color:yellow" /><br /><br />
+			<b>Password field</b><br />
+			Password : <input type="password" name="password"><br /><br />
+			<b>Radio buttons</b><br />
+			Do you like pizza?<br />
+			<input type="radio" name="like" value="yes"/>Yes<br />
+			<input type="radio" name="like" value="no" checked="checked"/>No<br />
+			<input type="radio" name="like" value="may"/>May be<br />
+			<input type="radio" name="like" value="never"/>Never tried<br /><br />
+			<b>Checkbox</b><br />
+			<input type="checkbox" name="like">Check this box if you like our service<br /><br />
+			Anything you would like to say?<br />
+			<textarea rows="5" cols="40">
+			</textarea><br /><br />
+			<b>I like</b><br />
+			<select name="veg" size="5">
+				<option value="mush">mushrooms</option>
+				<option value="pepp">green peppers</option>
+				<option value="onion">onion</option>
+				<option value="tom">tomatoes</option>
+				<option value="olives">olives</optiont>
+			</select><br /><br />
+			<b>Menu</b><br />
+			Your favourite color:<br />
+			<select name="color">
+				<option value="yellow">Yellow</option>
+				<option value="green">Green</option>
+				<option value="red" selected="selected">Red</option>
+				<option value="Purple">Purple</option>
+			</select><br /><br />
+			<b>Attach file</b><br />
+			<input type="text" name="file" size="40" />
+			<input type="file" name="find" value="Browse" /><br /><br />
+			<b>Buttons</b><br />
+ 			<input type="submit" name="sub" /></a>
+			<input type="reset" name="res" />
+		</form>
+	</body>
 </html>

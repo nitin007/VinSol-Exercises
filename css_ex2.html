@@ -1,0 +1,175 @@
+<html>
+<head>
+	<title>Navigation Tabs</title>
+	<meta name="author" content="Nitin Gupta" />
+	<style type="text/css">
+		.main
+		{
+			background-color:#eeeeee;
+			margin:0px 10px 10px 10px;
+			border:0px solid black;
+			height:100px;
+		}
+		p
+		{
+			margin-top:6px;
+			margin-left:12px;
+			font-size:25px;
+			font-color:#333333;
+			font-family:verdana;
+		}
+		ul#navlist
+		{
+			list-style-type:none;
+			margin:0px;
+			padding:0px;
+			overflow:hidden;
+			margin-left:40px;
+		}
+		a:link
+		{
+			display:inline;
+			width:70px;
+			height:20px;
+			background-color:#dddddd;
+			border:1px solid #ffffff;
+			border-right:1px solid #aaaaaa;
+			text-align:center;
+			text-decoration:none;
+			color:#444444;
+			font-family:arial;
+			font-size:14px;
+			float:left;
+		}
+		li
+		{
+			display:inline;
+			margin:0px;
+		}
+		a:hover
+		{
+			background-color:#bbbbbb;
+			border:1px solid #ffffff;
+			border-bottom:1px solid #bbbbbb;
+		}
+		ul#subnavlist li
+		{
+			color:#ffffff;
+			width:90px;
+			float:left;
+			text-align:center;
+			color:#ffffff;
+			margin-left:0px;
+			position:relative;
+			left:-5px;
+		}
+		ul#subnavlist
+		{
+			width:1180px;
+			background-color:#bbbbbb;
+			display:none;
+			border:1px solid #ffffff;
+			border-top:1px solid #bbbbbb;
+			position:relative;
+			left:29px;
+			
+		}
+		ul#navlist li:hover ul#subnavlist
+		{
+			display:block;
+			position:absolute;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<p>Example of CSS-driven tabs</p>
+		<ul style="width:100%" id="navlist">
+			<li><a id="menu" href="vinsol.com">Home</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Vision</li>
+						<li>Team</li>
+						<li>Culture</li>
+						<li>Careers</li>
+						<li>History</li>
+						<li>Sponsorship</li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="menu" href="vinsol.com">About</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Company</li>
+						<li>Founder</li>
+						<li>Revenue</li>
+						<li>Employees</li>
+						<li>Director</li>
+						<li>Products</li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="menu" href="vinsol.com">News</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Press Release</li>
+						<li>events</li>
+						<li>Vinsol</li>
+						<li>Report</li>
+						<li>History</li>
+						<li>Sponsorship</li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="menu" href="vinsol.com">Industries</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Retail</li>
+						<li>Banking</li>
+						<li>IT Services</li>
+						<li>Energy</li>
+						<li>Education</li>
+						<li>Healthcare</li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="menu" href="vinsol.com">Services</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Cloud</li>
+						<li>Mobility</li>
+						<li>BPO</li>
+						<li>KPO</li>
+						<li>Online</li>
+						<li>Sponsorship</li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="menu" href="vinsol.com" style="width:80px;">Products</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Windows</li>
+						<li>Silverlight</li>
+						<li>Finacle</li>
+						<li>Flype</li>
+						<li>Vinsol edge</li>
+						<li>ITransform</li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="menu" href="vinsol.com">Help</a>
+				<div>
+					<ul id="subnavlist" style="margin-top:20px">
+						<li>Vision</li>
+						<li>Team</li>
+						<li>Culture</li>
+						<li>Careers</li>
+						<li>History</li>
+						<li>Sponsorship</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

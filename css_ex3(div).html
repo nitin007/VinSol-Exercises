@@ -1,0 +1,119 @@
+
+<!-- saved from url=(0053)file:///Users/rohit/Desktop/Nitin_vinsol/css_ex3.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		
+		<style type="text/css">
+			form
+			{
+				margin:30% 10% 10% 30%;
+				position:fixed;
+				font-family:serif;
+			}
+			.tr
+			{
+				display:inline;
+				width:250px;
+				float:left;
+				border-left:solid 1px #d7e4f1;
+				height:25px;
+				color:#376fa2;
+			}
+			.tfield
+			{
+				width:240px; 
+				float:right; 
+				margin-right:1px;
+				border:solid 1px #000000;
+				margin-top:3px;
+				background-color:#d7e4f1;
+			}
+			.block
+			{
+				display:block;
+				border-bottom:solid 1px #d7e4f1;
+				border-right:solid 1px #d7e4f1;
+				float:left;
+				width:502px;
+			}
+			.nest
+			{
+				display:inline;
+				border-left:1px solid #d7e4f1;
+				height:25px;
+				color:#376fa2;
+			}
+			#bclr
+			{
+				background-color:#f3f6fb
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<div class="block" style="border-top:solid 1px #d7e4f1;">
+				<div class="tr">
+					Name
+				</div>
+				<div class="tr" id="bclr" style="width:250px;">
+					<input type="text" name="name" class="tfield" />
+				</div>
+			</div>
+			<div class="block">
+				<div class="tr">
+					Address Line 1
+				</div>
+				<div class="tr" id="bclr">
+					<input type="text" name="name" class="tfield" />
+				</div>
+			</div>
+			<div class="block">
+				<div class="tr">
+					Address Line 2
+				</div>
+				<div class="tr" id="bclr">
+					<input type="text" name="name" class="tfield" />
+				</div>
+			</div>
+			<div class="block">
+				<div class="tr">
+					City
+				</div>
+				<div class="tr" id="bclr">
+					<input type="text" name="name" class="tfield" />
+				</div>
+			</div>
+			<div class="block">
+				<div class="nest" style="width:125px; float:left;">
+					State
+				</div>
+				<div class="nest" style="width:124px; float:left" id="bclr">
+					<select class="list" style="width:118px; float:right; margin-right:1px; background-color:#d7e4f1;">
+						<option>--Select--</option>
+						<option>Haryana</option>
+						<option>Delhi</option>
+						<option>Himachal Pradesh</option>
+						<option>Bihar</option>
+						<option>Gujrat</option>
+					</select>
+				</div>
+				<div class="nest" style="width:125px; float:left;">
+					Zip
+				</div>
+				<div class="nest" style="width:124px; float:left" id="bclr">
+					<input type="text" name="name" class="tfield" style="width:95%;"/>
+				</div>
+			</div>
+			<div class="block">
+				<div class="tr">
+					Email Address
+				</div>
+				<div class="tr" id="bclr">
+					<input type="text" name="name" class="tfield" />
+				</div>
+			</div>
+			<div style="width:502px; border:1px solid #d7e4f1;">
+				<input type="submit" name="sub" style=" background-color:#d7e4f1;margin-left:10px;"/>
+			</div>
+		</form>
+	</body>
+</html>

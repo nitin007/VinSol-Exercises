@@ -1,0 +1,174 @@
+<html>
+<head>
+	<style type="text/css">
+		body
+		{
+			margin:0px;
+			padding:0px;
+			font-style:georgia;
+		}
+		
+		.heading
+		{
+			margin-left:20px;
+		}
+		.menu
+		{
+			margin-top:40px;
+			width:600px;
+			/*border:1px solid black;*/
+		}
+		ul.navlist
+		{
+			height:37px;
+			background-color:#ffffff;
+			list-style-type:none;
+			text-transform:capitalize;
+			font-size:18px;
+			margin-left:20px;
+			width:602px;
+			position:relative;
+			left:-1px;
+			padding:0px;
+			border-bottom:1px solid #6d6d6d;
+		}
+		ul.navlist li
+		{
+			display:block;
+			float:left;
+			margin:0px 0px 0px 2px;
+			position:relative;
+			left:0px;
+			height:16px;
+			padding:10px 20px;
+			border-top:1px solid #ffffff;
+			border-left:1px solid #ffffff;
+			border-right:1px solid #ffffff;
+			/*border:1px solid black;*/
+			background-color:#cfcfcf;
+		}
+		ul.subnavlist
+		{
+			display:none;
+			position:absolute;
+			list-style-type:none;
+		}
+		ul.subnavlist li
+		{
+			width:200px;
+			position:relative;
+			left:-61px;
+			top:8px;
+			border-left:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-bottom:0px solid #ffffff;
+			border-top:0px solid #ffffff;
+			font-size:14px;
+			background-color:#ffffff;
+			margin:0px;
+			padding:10px;
+		}
+		ul.subnavlist a
+		{
+			color:#000000;
+			text-decoration:none;
+			width:200px;
+			display:block;
+			float:left;
+			padding:5px 0px;
+			border-bottom:1px solid #cfcfcf;
+		}
+		ul.navlist li:hover ul.subnavlist
+		{
+			display:block;
+		}
+		ul.navlist li#item:hover
+		{
+			color:#8C8C8C;
+			background-color:#ffffff;
+			/*border:1px solid #6d6d6d;*/
+			border-top:1px solid #6d6d6d;
+			border-left:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-bottom:1px solid #ffffff;
+		}
+		ul.navlist li#litem:hover
+		{
+			color:#8C8C8C;
+			background-color:#ffffff;
+			border-top:1px solid #6d6d6d;
+			border-left:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-bottom:1px solid #ffffff;
+		}
+		ul.navlist li#litem:hover ul.subnavlist li
+		{
+			width:200px;
+			padding:10px;
+			position:relative;
+			left:-159px;
+			top:8px;
+			border-left:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-bottom:0px solid #ffffff;
+			border-top:0px solid #ffffff;
+			font-size:14px;
+			background-color:#ffffff;
+			color:#000000;
+		}
+		ul.subnavlist a:hover
+		{
+			color:#bd0707;
+		}
+	</style>
+</head>
+	<body>
+		<div class="content">
+			<div class="heading">
+				<h1>Example of CSS based drop downs</h1>
+			</div>
+				<ul class="navlist">
+					<li id="item" style="margin-left:0px;"><i>Home</i>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li style="border-bottom:1px solid #6d6d6d;"><a href="" style="border-bottom:1px solid #ffffff;"><i>example link 4</i></a></li>
+						</ul>
+					</li>
+					<li id="item"><i>About us</i>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li style="border-bottom:1px solid #6d6d6d;"><a href="" style="border-bottom:1px solid #ffffff;"><i>example link 4</i></a></li>
+							</ul>
+					</li>
+					<li id="item"><i>our services</i>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li style="border-bottom:1px solid #6d6d6d;"><a href="" style="border-bottom:1px solid #ffffff;"><i>example link 4</i></a></li>
+						</ul>
+					</li>
+					<li id="item"><i>our portfolio</i>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li style="border-bottom:1px solid #6d6d6d;"><a href="" style="border-bottom:1px solid #ffffff;"><i>example link 4</i></a></li>
+					</ul>
+					</li>
+					<li id="litem"><i>contact us</i>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li style="border-bottom:1px solid #6d6d6d;"><a href="" style="border-bottom:1px solid #ffffff;"><i>example link 4</i></a></li>
+					</ul>
+					</li>
+				</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,195 @@
+<html>
+<head>
+	<style type="text/css">
+		body
+		{
+			margin:0px;
+			padding:0px;
+			font-style:tahoma;
+		}
+		.header
+		{
+			margin-right:0px;
+			padding-right:0px;
+			width:100%;
+			height:80px;
+			border-bottom:2px solid #db2927;
+		}
+		img
+		{
+			margin:10px 0px 2px 17px;
+			height:65px;
+			width:170px;
+		}
+		.contact
+		{
+			font-size:13px;
+			float:right;
+			margin:60px 10px 2px 0px;
+		}
+		#htextb
+		{
+			color:black;
+			margin-right:4px;
+		}
+		#htextbu
+		{
+			color:#045198;
+			margin-right:15px;
+		}
+		a
+		{
+			 text-decoration:none;
+		}
+		.content
+		{
+			 margin:2% 0% 0% 29%; position:absolute;
+		}
+		.heading
+		{
+			font-size:18px;
+			color:#2c286d;
+		}
+		.box
+		{
+			width:500px;
+			height:380px;
+			border:1px solid #bcbcbc;
+			background-color:#ececec;
+			padding:20px 30px;
+		}
+		form
+		{
+			margin:0px;
+			padding:0px;
+		}
+		.labels
+		{
+			width:105px;
+			float:left;
+			margin:0px;
+			font-size:14px;
+		}
+		.label
+		{
+			float:right;
+			clear:both;
+			margin-top:16px;
+			padding-right:10px;
+		}
+		.label1
+		{
+			float:right;
+			clear:both;
+			padding-right:10px;
+			margin-top:11px;
+		}
+		.tfields
+		{
+			float:right;
+			width:390px;
+		}
+		.tfield
+		{
+			margin-top:6px;
+			width:360px;
+			height:25px;
+			padding-right:10px;
+			border:1px solid #b9b9b9;
+		}
+		.tradio
+		{
+			font-size:13px;
+			color:#6f6f6f;
+		}
+		#tradio1
+		{
+			margin-top:13px;
+		}
+		#tradio2
+		{
+			margin-left:25px;
+		}
+		.ddown
+		{
+			margin-top:11px;
+			width:110px;
+			font-size:13px;
+			color:#6f6f6f;
+		}
+		textarea
+		{
+			width:360px; 
+			height:135px; 
+			border:1px solid #b9b9b9;
+			margin-top:11px;
+		}
+		.sub
+		{
+			background-color:#dc2927; 
+			border:1px solid #a10200; 
+			width:130px; height:32px; 
+			text-align:center; 
+			font-size:14px; 
+			color:white; 
+			margin:11px 0px 25px 0px;
+		}
+	</style>
+</head>
+	<body>
+		<div class="header">
+			<img src="file:///Users/rohit/Desktop/COCOA/vinsol-logo.png" />
+			<div class="contact">
+				<span id="htextb">Email us at:</span><span id="htextbu"><a mailto="http://vinsol.com">sales@vinsol.com</a></span><span id="htextb">Skype:</span><span id="htextbu">Vinsol</span>
+			</div>
+		</div>
+		<div class="content">
+			<div class="heading">Please fill the form below</div>
+			<div class="box">
+				<form>
+					<div class="labels">
+						<div class="label1"><span>First Name</div>
+						<div class="label">Last Name</div>
+						<div class="label">Email Address</div>
+						<div class="label">Password</div>
+						<div class="label">Gender</div>
+						<div class="label">Date of Birth</div>
+						<div class="label">Address</div>
+					</div>
+					<div class="tfields">
+						<div><input type="text" class="tfield" /></div>
+						<div><input type="text" class="tfield" /></div>
+						<div><input type="text" class="tfield" /></div>
+						<div><input type="password" class="tfield" /></div>
+						<div class="tradio">
+							<span>
+							<input id="tradio1" type="radio" name="gen" class="radio" />Male
+							<input id="tradio2" type="radio" name="gen" class="radio" />Female
+							</span>
+						</div>
+						<div>
+							<span>
+							<select class="ddown">
+								<option>DD</option>
+							</select>
+							<select  class="ddown">
+								<option>MM</option>
+							</select>
+							<select  class="ddown">
+								<option>YY</option>
+							</select>
+							</span>
+						</div>
+						<div>
+							<textarea>
+							</textarea>
+						</div>
+						<div>
+							<input type="submit" name="sub" value="Submit Details" class="sub" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

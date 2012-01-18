@@ -1,0 +1,189 @@
+<html>
+<head>
+	<style type="text/css">
+		body
+		{
+			margin:0px;
+			padding:0px;
+			font-family:georgia;
+		}
+		
+		.heading
+		{
+			margin-left:20px;
+		}
+		ul.navlist
+		{
+			height:37px;
+			list-style-type:none;
+			text-transform:capitalize;
+			font-size:18px;
+			margin-left:20px;
+			width:631px;
+			padding:0px;
+			border-bottom:1px solid #6d6d6d;
+			position:absolute;
+		}
+		ul.navlist li.item1
+		{
+			display:block;
+			float:left;
+			margin:0px;
+			padding:0px;
+			height:36px;
+			border-top:1px solid #ffffff;
+			border-left:1px solid #ffffff;
+			border-right:1px solid #ffffff;
+			background-color:#cfcfcf;
+			color:#000000;
+		}
+		ul.navlist li.iteml
+		{
+			display:block;
+			float:left;
+			margin:0px;
+			padding:0px;
+			height:36px;
+			border-top:1px solid #ffffff;
+			border-left:1px solid #ffffff;
+			border-right:1px solid #ffffff;
+			background-color:#cfcfcf;
+		  color:#000000;
+		}
+		ul.navlist a#item2
+		{
+			display:block;
+			float:left;
+			margin:0px;
+			height:16px;
+			padding:10px 20px;
+			text-decoration:none;
+			color:#000000;
+			border-bottom:1px solid #6d6d6d;
+		}
+		ul.subnavlist
+		{
+			display:none;
+			list-style-type:none;
+			margin-top:37px;
+			margin-left:-1px;
+			position:absolute;
+			width:180px;
+			border-bottom:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-left:1px solid #6d6d6d;
+			background-color:#ffffff;
+			padding:10px;
+		}
+		ul.subnavlist li
+		{
+			display:block;
+			float:left;
+			padding:0px;
+		}
+		ul.subnavlist a
+		{
+			display:block;
+			float:left;
+			background-color:#ffffff;
+			border-bottom:1px solid #cfcfcf;
+			font-size:14px;
+			padding:5px 0px;
+			width:180px;
+			text-decoration:none;
+			color:#000000;
+		}
+		ul.subnavlist a#itema
+		{
+			border-bottom:1px solid #ffffff;
+		}
+		ul.navlist li.item1:hover
+		{
+			color:#8c8c8c;
+			background-color:#ffffff;
+			border-top:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-left:1px solid #6d6d6d;
+		}
+		ul.navlist li:hover a#item2
+		{
+			color:#8c8c8c;
+			border-bottom:1px solid #ffffff;
+		} 
+		ul.navlist li.iteml:hover
+		{
+			color:#8c8c8c;
+			background-color:#ffffff;
+			border-top:1px solid #6d6d6d;
+			border-right:1px solid #6d6d6d;
+			border-left:1px solid #6d6d6d;
+			border-bottom:1px solid #ffffff;
+		}
+		ul.navlist li.iteml:hover .subnavlist
+		{
+			margin-left:-72px;
+		}
+		ul.navlist li.item1:hover ul.subnavlist
+		{
+			display:block;
+		}
+		ul.navlist li.iteml:hover ul.subnavlist
+		{
+			display:block;
+		}
+		ul.subnavlist a:hover
+		{
+			color:#bd0707;
+		}
+	</style>
+</head>
+	<body>
+		<div class="content">
+			<div class="heading">
+				<h1>Example of CSS based drop downs</h1>
+			</div>
+				<ul class="navlist">
+					<li class="item1"><a id="item2" href=""><i>Home</i></a>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li><a id="itema" href=""><i>example link 4</i></a></li>
+						</ul>
+					</li>
+					<li class="item1"><a id="item2" href=""><i>About us</i></a>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li><a id="itema" href=""><i>example link 4</i></a></li>
+						</ul>
+					</li>
+					<li class="item1"><a id="item2" href=""><i>Our services</i></a>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li><a id="itema" href=""><i>example link 4</i></a></li>
+						</ul>
+					</li>
+					<li class="item1"><a id="item2" href=""><i>Our Portfolio</i></a>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li><a id="itema" href=""><i>example link 4</i></a></li>
+						</ul>
+					</li>
+					<li class="iteml"><a id="item2" href=""><i>Contact Us</i></a>
+						<ul class="subnavlist">
+							<li><a href=""><i>example link 1</i></a></li>
+							<li><a href=""><i>example link 2</i></a></li>
+							<li><a href=""><i>example link 3</i></a></li>
+							<li><a id="itema" href=""><i>example link 4</i></a></li>
+						</ul>
+					</li>
+				</ul>
+		</div>
+	</body>
+</html>
